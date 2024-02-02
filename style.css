@@ -1,0 +1,68 @@
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    background-color: grey;
+}
+
+.Aa{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    margin-top: 150px;
+}
+
+.card{
+    background: white;
+    width: 270px;
+    margin: 10px;
+    border-radius: 15px;
+
+}
+
+.card-image{
+    background-color: aqua;
+    height: 150px;
+    margin-bottom: 15px;
+    background-size: cover;
+    border-radius: 15px;
+}
+
+.car-1 {
+    background-image: url('https://images.cnbctv18.com/wp-content/uploads/2023/02/04-BUGATTI_CHIRON-Profilee-1-780x438.jpg');
+}
+.car-2 {
+    background-image: url('https://www.topgear.com/sites/default/files/2022/07/13.jpg');
+}
+.car-3 {
+    background-image: url('https://imageio.forbes.com/specials-images/imageserve/5d35eacaf1176b0008974b54/0x0.jpg?format=jpg&crop=4560,2565,x790,y784,safe&height=900&width=1600&fit=bounds');
+}
+
+.card p{
+    padding: 10px;
+}
+
+.card a{
+    background-color: black;
+    color: white ;
+    padding: 15px 20px; 
+    display: block;
+    text-align: center;
+    margin: 20px 50px;
+}
+
+.card:hover{
+    background-color: rgb(62,62,62);
+    color: white;
+    cursor: pointer;
+    transform: scale(1.11);
+    transition: 0.6s;
+}
+
+h2{
+    margin-left: 10px;
+} 
